@@ -8,8 +8,8 @@
   "dependencies": {
     "chalk": "^4.1.0"
   },
-  "bin": "index.js",
+  "bin": "src/index.js",
   "scripts": {
-    "dev": "rm -rf test-create-node-project; node index.js test-create-node-project"
+    "dev": "cd ../; rm -rf test-create-node-project; node create-node-project/src/index.js test-create-node-project"
   }
 }
